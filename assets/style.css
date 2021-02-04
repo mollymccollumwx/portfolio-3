@@ -1,0 +1,53 @@
+p {
+    color: white;
+}
+/* hero image */
+.hero {
+    /* image from unsplash */
+    background: url(./images/computer-keys.jpg);
+    background-position: center center;
+    background-repeat: no repeat;
+    background-size: cover;
+    opacity: 0.98;
+  }
+
+  /* mobile media query */
+@media (max-width: 768px) {
+  .hero {
+    background: black url(./images/computer-keys.jpg);
+    background-position: center center;
+    background-repeat: no repeat;
+    background-size: cover;
+    opacity: 0.98;
+  }
+}
+
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    justify-content: flex-start;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+h1, .image  {
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+
+
+
+/* .page-title{
+    top: 80px;
+} */
